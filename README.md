@@ -1,10 +1,10 @@
-# Testes Mantis
+# Testes Automatizados Mantis
 
 ## Automação de testes do Mantis utilizando Selenium Web Driver com Java.
 
-Para executar o projeto, é necessário configurar o ChromeDriver.
+Para executar o projeto, é necessário configurar o ChromeDriver (Já está configurado na pasta driver).
 
-Ele está localizado na pasta 'driver' deste projeto, no seguinte diretório: `driver\chromedriver.exe`. Certifique-se de que o navegador Google Chrome está na versão 123.
+Ele está localizado na pasta 'driver' deste projeto, no seguinte diretório: `driver\chromedriver.exe`. Certifique-se de que o navegador Google Chrome está na versão 123 (Caso contrário será necessário baixar uma nova versão do ChromeDriver compatível com seu navegador).
 
 Indique o caminho para o ChromeDriver no método de conexão `initChromeDriver`, que está na classe BrowserFactory. O diretório da classe é: testes-automatizados-mantis\src\test\java\br\com\mantis\e2e\BrowserFactory.java
 
